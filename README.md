@@ -18,8 +18,8 @@ DIY command-line utility to schedule and publish tweets
 ## Using
 
 ### Create a Twitter App
-* Login to twitter account
-* Create app at https://apps.twitter.com/
+* Login to your twitter account
+* Create an app at https://apps.twitter.com/
 * Click on the "Keys and Access Tokens" tab in newly created app
 * From "Application Settings" get "Consumer Key" and "Consumer Secret"
 * From "Your Access Token" get "Access Token" and "Access Token Secret"
@@ -35,12 +35,12 @@ Contents of ~/.turret/CREDENTIALS
     <Twitter Access Token>
     <Twitter Access Token Secret>
 
-### Create tweets.csv with schedule date + time and status content in following format
+### Create tweets.csv with schedule date + time and status, in following format
     2017-Jan-02 10:30,"Test tweet"
     2017-Jan-02 10:33,"Another test tweet"
     2017-Jan-03 8:30,"Next day test tweet"
 
 ### Execution
-Go to folder of tweets.csv and execute
+Within the folder of tweets.csv and execute
 
     turret
