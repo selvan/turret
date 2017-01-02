@@ -1,0 +1,15 @@
+{
+	"ImportPath": "github.com/selvan/turret",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v75",
+	"Deps": [
+		{
+			"ImportPath": "github.com/kurrik/oauth1a",
+			"Rev": "cb1b80e32dd4385099f8d09312e4bcf6bdc993ec"
+		},
+		{
+			"ImportPath": "github.com/kurrik/twittergo",
+			"Rev": "1152e2e0077dcee2a7e0ea0c4bd1dd72d89d9be2"
+		}
+	]
+}
