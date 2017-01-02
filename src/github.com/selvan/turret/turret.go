@@ -95,7 +95,7 @@ func postTweets(tweets []ScheduledTweet) {
 
 func startClock() chan bool {
 	stopHandle := make(chan bool, 1)
-	ticker := time.NewTicker(1 * time.Second)
+	ticker := time.NewTicker(1 * time.Minute)
 
 	go func() {
 		for {
