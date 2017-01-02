@@ -41,6 +41,6 @@ Contents of ~/.turret/CREDENTIALS
     2017-Jan-03 8:30,"Next day test tweet"
 
 ### Execution
-Go to folder of tweets.csv
+Go to folder of tweets.csv and execute
 
     turret
