@@ -39,6 +39,7 @@ Contents of ~/.turret/CREDENTIALS
     2017-Jan-02 10:30,"Test tweet"
     2017-Jan-02 10:33,"Another test tweet"
     2017-Jan-03 8:30,"Next day test tweet"
+    2017-Jan-03 14:15,"Another next day test tweet"
 
 ### Execution
 From within the folder of tweets.csv, execute
