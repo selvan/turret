@@ -9,10 +9,9 @@ import (
 	"strconv"
 	"strings"
 	"time"
-
-	"./twitter"
 )
 
+var twitter Twitter
 var twitterClient, credentialErr = twitter.LoadCredentials()
 
 var dateParseFormat = "2006-Jan-02"

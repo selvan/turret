@@ -1,4 +1,4 @@
-package twitter
+package main
 
 import (
 	"io/ioutil"
@@ -12,7 +12,10 @@ import (
 	"github.com/kurrik/twittergo"
 )
 
-func LoadCredentials() (client *twittergo.Client, err error) {
+type Twitter struct {
+}
+
+func (Twitter) LoadCredentials() (client *twittergo.Client, err error) {
 	credentials, err := ioutil.ReadFile(os.Getenv("HOME") + "/.turret/CREDENTIALS")
 	if err != nil {
 		return
@@ -27,7 +30,7 @@ func LoadCredentials() (client *twittergo.Client, err error) {
 	return
 }
 
-func Post(client *twittergo.Client, status string) {
+func (Twitter) Post(client *twittergo.Client, status string) {
 	var (
 		err   error
 		req   *http.Request
