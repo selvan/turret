@@ -1,8 +1,5 @@
-!src/
-src/*
-!src/github.com/
-src/github.com/*
-!src/github.com/selvan/
+golang.org/
+sourcegraph.com/
 
 pkg/
 bin/

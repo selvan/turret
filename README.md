@@ -9,11 +9,16 @@ DIY command-line utility to schedule and publish tweets
     export GOPATH=`pwd`/turret
     export PATH=$GOPATH/bin:$PATH
     cd turret
-    go install github.com/selvan/turret
+
+    # install dependencies
+    go get github.com/kurrik/oauth1a
+    go get github.com/kurrik/twittergo
+
+    # build turret binary
+    go build
 
 ### Test
-    go test github.com/selvan/turret
-
+    go test
 
 ## Using
 

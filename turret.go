@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/selvan/turret/twitter"
+	"./twitter"
 )
 
 var twitterClient, credentialErr = twitter.LoadCredentials()
