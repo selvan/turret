@@ -2,7 +2,9 @@
 
 DIY command-line utility to schedule and publish tweets
 
-## Building from source
+    go get github.com/selvan/turret
+
+## Hacking source
 
 ### Build
     git clone github.com/selvan/turret.git
@@ -10,9 +12,7 @@ DIY command-line utility to schedule and publish tweets
     export PATH=$GOPATH/bin:$PATH
     cd turret
 
-    # install dependencies
-    go get github.com/kurrik/oauth1a
-    go get github.com/kurrik/twittergo
+    # See vendor/ for dependencies
 
     # build turret binary
     go build
